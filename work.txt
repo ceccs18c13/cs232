@@ -1,0 +1,129 @@
+Script started on Thursday 11 February 2016 10:03:41 PM IST
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls
+work.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls -1[Kl
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:03 work.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls -ltr
+total 0
+-rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:03 work.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls ab* q[K -d
+ls: cannot access 'ab*': No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat a[Kabcd.txt
+cat: abcd.txt: No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat >abcd.txt
+
+
+
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat abcd.txt
+1
+8
+3
+2
+6
+
+
+
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -n abcd.txt
+
+
+
+1
+2
+3
+6
+8
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat >abcde,[K.txt
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -f3 abcd.txt
+1
+8
+3
+2
+6
+
+
+
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ paste abd[Kcd.txt abcde.txt
+1	
+8	
+3	
+2	
+6	
+	
+	
+	
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -c abcde.txt
+
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ s[Kgrep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -r abcd.txt
+8
+6
+3
+2
+1
+
+
+
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -m[Knr abcde.txt
+potato
+orange
+mango
+grape
+apple
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -c mango abcde.txt
+1
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep[K[K[K[Kgrep -c mango abcde.txt[5Psort -nr[C[C[C[C[C[C[C[C[C[C[5@grep -c mango[C[C[C[C[C[C[C[C[C[C[1P[1@w
+[01;31m[Kmango[m[K
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -w mango abcde.txtc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@r
+[01;31m[Kmango[m[K
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ join abcd.txt abcde.txt
+join: abcd.txt:3: is not sorted: 3
+join: abcde.txt:4: is not sorted: mango
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ join abcd.txt abcde.txtgrep -r mango[C[C[C[C[C[C[C[C[C[Cw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Psort -nr[C[C[C[C[C[C[C[C[C[C[2Pr abcd.txt[9Pgrep -c abcde.txt[7@paste abcd.txt[C[C[C[C[C[C[C[C[C[C[8Pcut -f3 abcd.txt[2Pat >abcde.txtsort -n abcd.txt[2Pcat >abcde.txtut -f3 abcd.txtpaste abcd.txt abcde.txt[7Pgrep -c[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcut -b 1,2,3 abcde.txt
+app
+gra
+ora
+man
+pot
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -b 1,2,3 abcde.txt[1@join abcd.txt[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abcd.txt abcde.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -c 1,2,3 abcde.txt
+app
+gra
+ora
+man
+pot
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ paste abcd.txt abcde.txt
+1	apple
+8	grape
+3	orange
+2	mango
+6	potato
+	
+	
+	
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ who
+s4c1     tty7         2016-02-11 21:58 (:0)
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ who -a
+           system boot  2010-01-01 17:31
+           run-level 5  2016-02-11 21:58
+LOGIN      tty1         2016-02-11 21:58              1263 id=tty1
+s4c1     + tty7         2016-02-11 21:58  old         1324 (:0)
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ whoami
+s4c1
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -c -5 abcde.txt
+apple
+grape
+orang
+mango
+potat
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ aq[Kwk {[K'{s+=$1} END {}o}[1P}p}r}i}n}t} }s}[C' 
+ abcd.txt
+20
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ exit
+exit
+
+Script done on Friday 31 January 2020 10:35:14 PM IST
