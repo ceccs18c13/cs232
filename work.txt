@@ -1,129 +1,86 @@
-Script started on Thursday 11 February 2016 10:03:41 PM IST
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls
-work.txt
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls -1[Kl
-total 0
--rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:03 work.txt
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls -ltr
-total 0
--rw-rw-r-- 1 s4c1 s4c1 0 Feb 11 22:03 work.txt
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ ls ab* q[K -d
-ls: cannot access 'ab*': No such file or directory
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat a[Kabcd.txt
-cat: abcd.txt: No such file or directory
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat >abcd.txt
+Script started on Friday 07 February 2020 10:02:03 AM IST
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ifconfig -a
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:5a  
+          inet addr:192.168.0.88  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::98e8:ebe9:b7cf:de08/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:53363 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6573 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:17227791 (17.2 MB)  TX bytes:671052 (671.0 KB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
 
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6064 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6064 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:404648 (404.6 KB)  TX bytes:404648 (404.6 KB)
 
-
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ifconfig eth0 up
+eth0: ERROR while getting interface flags: No such device
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ifconfig eth0 up-a[K[7Pexitifconfig -aeth0 up[K[K192.168.0.30
+SIOCSIFADDR: Operation not permitted
+eth0: ERROR while getting interface flags: No such device
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp0s25
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp0s25
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ route add default gw 192.16 8.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.629 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.672 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.630 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.630 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.680 ms
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.724 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.505 ms
+64 bytes from 192.168.0.2: icmp_seq=8 ttl=64 time=0.685 ms
+64 bytes from 192.168.0.2: icmp_seq=9 ttl=64 time=0.612 ms
+64 bytes from 192.168.0.2: icmp_seq=10 ttl=64 time=0.622 ms
+64 bytes from 192.168.0.2: icmp_seq=11 ttl=64 time=0.255 ms
+64 bytes from 192.168.0.2: icmp_seq=12 ttl=64 time=0.508 ms
+64 bytes from 192.168.0.2: icmp_seq=13 ttl=64 time=0.604 ms
+64 bytes from 192.168.0.2: icmp_seq=14 ttl=64 time=0.631 ms
+64 bytes from 192.168.0.2: icmp_seq=15 ttl=64 time=0.611 ms
+64 bytes from 192.168.0.2: icmp_seq=16 ttl=64 time=0.608 ms
+64 bytes from 192.168.0.2: icmp_seq=17 ttl=64 time=0.655 ms
+64 bytes from 192.168.0.2: icmp_seq=18 ttl=64 time=0.682 ms
+64 bytes from 192.168.0.2: icmp_seq=19 ttl=64 time=0.489 ms
+64 bytes from 192.168.0.2: icmp_seq=20 ttl=64 time=0.601 ms
+64 bytes from 192.168.0.2: icmp_seq=21 ttl=64 time=0.620 ms
+64 bytes from 192.168.0.2: icmp_seq=22 ttl=64 time=0.604 ms
+64 bytes from 192.168.0.2: icmp_seq=23 ttl=64 time=0.278 ms
+64 bytes from 192.168.0.2: icmp_seq=24 ttl=64 time=0.609 ms
+64 bytes from 192.168.0.2: icmp_seq=25 ttl=64 time=0.576 ms
+64 bytes from 192.168.0.2: icmp_seq=26 ttl=64 time=0.599 ms
 ^C
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat abcd.txt
-1
-8
-3
-2
-6
-
-
-
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -n abcd.txt
-
-
-
-1
-2
-3
-6
-8
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cat >abcde,[K.txt
-^C
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -f3 abcd.txt
-1
-8
-3
-2
-6
-
-
-
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ paste abd[Kcd.txt abcde.txt
-1	
-8	
-3	
-2	
-6	
-	
-	
-	
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -c abcde.txt
-
-^C
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ s[Kgrep -c
-Usage: grep [OPTION]... PATTERN [FILE]...
-Try 'grep --help' for more information.
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -r abcd.txt
-8
-6
-3
-2
-1
-
-
-
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ sort -m[Knr abcde.txt
-potato
-orange
-mango
-grape
-apple
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -c mango abcde.txt
-1
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep[K[K[K[Kgrep -c mango abcde.txt[5Psort -nr[C[C[C[C[C[C[C[C[C[C[5@grep -c mango[C[C[C[C[C[C[C[C[C[C[1P[1@w
-[01;31m[Kmango[m[K
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ grep -w mango abcde.txtc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@r
-[01;31m[Kmango[m[K
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ join abcd.txt abcde.txt
-join: abcd.txt:3: is not sorted: 3
-join: abcde.txt:4: is not sorted: mango
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ join abcd.txt abcde.txtgrep -r mango[C[C[C[C[C[C[C[C[C[Cw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Psort -nr[C[C[C[C[C[C[C[C[C[C[2Pr abcd.txt[9Pgrep -c abcde.txt[7@paste abcd.txt[C[C[C[C[C[C[C[C[C[C[8Pcut -f3 abcd.txt[2Pat >abcde.txtsort -n abcd.txt[2Pcat >abcde.txtut -f3 abcd.txtpaste abcd.txt abcde.txt[7Pgrep -c[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcut -b 1,2,3 abcde.txt
-app
-gra
-ora
-man
-pot
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -b 1,2,3 abcde.txt[1@join abcd.txt[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste abcd.txt abcde.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -c 1,2,3 abcde.txt
-app
-gra
-ora
-man
-pot
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ paste abcd.txt abcde.txt
-1	apple
-8	grape
-3	orange
-2	mango
-6	potato
-	
-	
-	
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ who
-s4c1     tty7         2016-02-11 21:58 (:0)
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ who -a
-           system boot  2010-01-01 17:31
-           run-level 5  2016-02-11 21:58
-LOGIN      tty1         2016-02-11 21:58              1263 id=tty1
-s4c1     + tty7         2016-02-11 21:58  old         1324 (:0)
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ whoami
-s4c1
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ cut -c -5 abcde.txt
-apple
-grape
-orang
-mango
-potat
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ aq[Kwk {[K'{s+=$1} END {}o}[1P}p}r}i}n}t} }s}[C' 
- abcd.txt
-20
-]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/3101[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/3101[00m$ exit
+--- 192.168.0.2 ping statistics ---
+26 packets transmitted, 26 received, 0% packet loss, time 25578ms
+rtt min/avg/max/mdev = 0.255/0.589/0.724/0.108 ms
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ cat/ping 192.168.0.2route add default gw 192.1688.0.2[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ [11Pping 192.168.0.2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat/etc/resolv.conf
+bash: cat/etc/resolv.conf: No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ cat/etc/resolv.conf /etc/resolv.conf
+# Dynamic resolv.conf(5) file for glibc resolver(3) generated by resolvconf(8)
+#     DO NOT EDIT THIS FILE BY HAND -- YOUR CHANGES WILL BE OVERWRITTEN
+nameserver 127.0.1.1
+search example.org
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ech0 "nameserver[K[K[K[K[K[K[K[K[K[K[K[K]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ech0 cat /etc/resolv.conf[K]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ cat /etc/resolv.conf[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kech0 "nameserver 1.1.1.1">> resolv.conf[K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ech0 "nameserver 1.1.1.1">>resolv.conf
+No command 'ech0' found, did you mean:
+ Command 'echo' from package 'coreutils' (main)
+ech0: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ ech0 "nameserver 1.1.1.1">>resolv.conf[Kech0 "nameserver 1.1.1.1">>resolv.conf[18Pcat /etc/resolv.conf[1P/etc/resolv.conf[3Pping 192.168.0.2[16@route add default gw[C[C[C[C[C[C[C[C[C[C[C[C-n[Kifconfig eth0 192.168.0.30up[K192.168.0.30route -n[Kadd default gw 192.168.0.2[16Pping[C[C[C[C[C[C[C[C[C[C[C[Ccat/etc/resolv.conf /etc/resolv.confech0 "nameserver 1.1.1.1">>resolv.conf[Kech0 "nameserver 1.1.1.1">>resolv.conf[1P[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+eth0: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ eth0 "nameserver 1.1.1.1">>resolv.conf[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+eth0nameserver 1.1.1.1: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ e[Keth0"nameserver 1.1.1.1">>resolv.conf[1P[1@c[C[C[1P[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/0702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/0702[00m$ exit
 exit
 
-Script done on Friday 31 January 2020 10:35:14 PM IST
+Script done on Friday 07 February 2020 10:45:09 AM IST
