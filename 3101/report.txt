@@ -1,0 +1,129 @@
+CEC CS 18 c13
+ASHNA A
+
+--------------------------------
+#1: Aim/task
+(t1)linux commands
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+abcd.txt
+abcde.txt
+
+
+
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+work file:work.txt
+report file:report.txt
+
+
+
+
+-------------------
+Remarks if any:
+input:
+cat abcd.txt
+
+output:
+1
+8
+3
+2
+6
+
+input:
+sort -n abcd.txt
+output:
+1
+2
+3
+6
+8
+input:
+sort -r abcd.txt
+output:
+8
+6
+3
+2
+1
+input:
+sort -nr abcde.txt
+output:
+potato
+orange
+mango
+grape
+apple awk '{s+=$1} END {print s}' 
+ abcd.txt
+
+
+input:
+grep -c mango abcde.txt
+output:
+1
+
+input:
+grep -w mango abcde.txt
+output:
+mango
+
+input:
+ grep -r mango abcde.txt
+output:
+mango
+
+input:
+ cut -b 1,2,3 abcde.txt
+output:
+ app
+gra
+ora
+man
+pot
+
+
+input:
+ cut -c 1,2,3 abcde.txt
+output:
+app
+gra
+ora
+man
+pot
+
+
+input:
+paste abcd.txt abcde.txt
+output:
+1	apple
+8	grape
+3	orange
+2	mango
+6	potato
+
+input:	
+ awk '{s+=$1} END {print s}' 
+ abcd.txt
+output:
+20
+-------------------------------------
+-------------------------------------
+#2:
+
+
+#3:
+
+
+#4:
+
+#5:
+
+
+
