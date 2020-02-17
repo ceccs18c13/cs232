@@ -1,0 +1,455 @@
+Script started on Monday 17 February 2020 11:11:21 AM IST
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702[00m$ pdftotext -layout result_CH N.pdf result_CHN.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702[00m$ grep[K[K[K[Kgrep --no-group-separator - A3 "CHN18CS" result_CHN.txt > result_cs.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702[00m$ cs[Khmod +9[Kx script.sh
+chmod: cannot access 'script.sh': No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702[00m$ ls
+result_CHN(2).pdf  result_CHN.txt  [0m[01;34ms1c[0m       [01;34mxyz[0m
+result_CHN.pdf     result_cs.txt   work.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702[00m$ cd s1c
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ cd s1c[4Plschmod +x script.sh
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ chmod +x script.sh[K./script.sh 
+I/O Error: Couldn't open file 'result_CHN.pdf': No such file or directory.
+grep: result_CHN.txt: No such file or directory
+join: students.txt: No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ non^?[K[K[K[Kgedit students.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ gedit students.txt[6P./script.sh 
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ ls
+cgpa.txt  result_CHN.pdf  result_CHN.txt  [0m[01;32mscript.sh[0m  students.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ gedit cgpa.txt 
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS002 ABHIITHP 
+CHN18CS002: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS003 ABIN BINU SA M 
+CHN18CS003: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS005 ADHIL SHAHAN AD K K 
+CHN18CS005: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS006 ADWAITH SIVA N 
+CHN18CS006: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS007 Aju George J acob 
+CHN18CS007: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS008 AKHIL RAVIND RAN 
+CHN18CS008: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS012 ALKA ANNA SA BU 
+CHN18CS012: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS015 Amal Ramacha ndran 
+CHN18CS015: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS018 ANJANA S 
+CHN18CS018: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS023 ARAVIND R 
+CHN18CS023: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS024 ARJUN A 
+CHN18CS024: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS025 ARJUN G KRIS HNA 
+CHN18CS025: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS028 ASHIK DAVID  ABRAHAM 
+CHN18CS028: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS029 Ashna A 
+CHN18CS029: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS035 DEEPA MARIAM  GEORGE 
+CHN18CS035: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS037 DEVIKA J 
+CHN18CS037: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS039 Emmanuel Shi ne Joseph 
+CHN18CS039: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS043 GEORGE MANI  [A
+CHN18CS043: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS046 GOPIKA PRADE EP 
+CHN18CS046: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS047 GOPIKA SURES H 
+CHN18CS047: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS048 GOPUDAS KM 
+CHN18CS048: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS049 GOVIND KARTH A 
+CHN18CS049: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS051 HABEL JAMES  GEORGE 
+CHN18CS051: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS052 HARI S R 
+CHN18CS052: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS053 HELEENA ANNA  VARGHESE 
+CHN18CS053: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS055 lrene Maria  Zachariah 
+CHN18CS055: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS056 JALENA MATHE W 
+CHN18CS056: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS057 JEENU CHACKO  
+CHN18CS057: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS060 Jessal John  Mammen 
+CHN18CS060: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS061 Jesswin W Va rghese 
+CHN18CS061: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS063 Jibin Joseph  
+CHN18CS063: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS064 JISA SURENDR AN 
+CHN18CS064: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS068 Jonathan Joh n Varghese 
+CHN18CS068: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS069 JOSHENA JOSE PH 
+CHN18CS069: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS071 JUSTIN JOSEP H 
+CHN18CS071: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS073 KAVYA M 
+CHN18CS073: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS076 KIRAN U 
+CHN18CS076: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS079 Manu Mathew  [A
+CHN18CS079: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS080 MARGRET JAIS ON 
+CHN18CS080: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS082 Muhammad Jal al 
+CHN18CS082: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS083 MUNISH KUMAR  
+CHN18CS083: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS084 NAJEEB 
+CHN18CS084: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS090 NIMMY GEORGE  
+CHN18CS090: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS092 NIVEA GIGEN  [A
+CHN18CS092: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS093 Nivya Maria  Mathew 
+CHN18CS093: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS095 PARVATHY KRI SHNAN 
+CHN18CS095: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS096 PARVATHY SAN THOSH 
+CHN18CS096: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS097 Prayank P Na ir 
+CHN18CS097: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS100 Remya C 
+CHN18CS100: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS101 REMYA RAVEED RANATHAN
+CHN18CS101: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS103 RINU ELISABA TH MATHEW 
+CHN18CS103: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS104 Rojin K Sunn y 
+CHN18CS104: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS108 SARATH KUMAR  S 
+CHN18CS108: command not found
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ CHN18CS109 SAURAV K.J.  [A
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ rsync -avh/1702/test
+rsync: -avh/1702/test: unknown option
+rsync error: syntax or usage error (code 1) at main.c(1572) [client=3.1.1]
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ rsync -a
+rsync  version 3.1.1  protocol version 31
+Copyright (C) 1996-2014 by Andrew Tridgell, Wayne Davison, and others.
+Web site: http://rsync.samba.org/
+Capabilities:
+    64-bit files, 64-bit inums, 64-bit timestamps, 64-bit long ints,
+    socketpairs, hardlinks, symlinks, IPv6, batchfiles, inplace,
+    append, ACLs, xattrs, iconv, symtimes, prealloc
+
+rsync comes with ABSOLUTELY NO WARRANTY.  This is free software, and you
+are welcome to redistribute it under certain conditions.  See the GNU
+General Public Licence for details.
+
+rsync is a file transfer program capable of efficient remote update
+via a fast differencing algorithm.
+
+Usage: rsync [OPTION]... SRC [SRC]... DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST:DEST
+  or   rsync [OPTION]... SRC [SRC]... [USER@]HOST::DEST
+  or   rsync [OPTION]... SRC [SRC]... rsync://[USER@]HOST[:PORT]/DEST
+  or   rsync [OPTION]... [USER@]HOST:SRC [DEST]
+  or   rsync [OPTION]... [USER@]HOST::SRC [DEST]
+  or   rsync [OPTION]... rsync://[USER@]HOST[:PORT]/SRC [DEST]
+The ':' usages connect via remote shell, while '::' & 'rsync://' usages connect
+to an rsync daemon, and require SRC or DEST to start with a module name.
+
+Options
+ -v, --verbose               increase verbosity
+     --info=FLAGS            fine-grained informational verbosity
+     --debug=FLAGS           fine-grained debug verbosity
+     --msgs2stderr           special output handling for debugging
+ -q, --quiet                 suppress non-error messages
+     --no-motd               suppress daemon-mode MOTD (see manpage caveat)
+ -c, --checksum              skip based on checksum, not mod-time & size
+ -a, --archive               archive mode; equals -rlptgoD (no -H,-A,-X)
+     --no-OPTION             turn off an implied OPTION (e.g. --no-D)
+ -r, --recursive             recurse into directories
+ -R, --relative              use relative path names
+     --no-implied-dirs       don't send implied dirs with --relative
+ -b, --backup                make backups (see --suffix & --backup-dir)
+     --backup-dir=DIR        make backups into hierarchy based in DIR
+     --suffix=SUFFIX         set backup suffix (default ~ w/o --backup-dir)
+ -u, --update                skip files that are newer on the receiver
+     --inplace               update destination files in-place (SEE MAN PAGE)
+     --append                append data onto shorter files
+     --append-verify         like --append, but with old data in file checksum
+ -d, --dirs                  transfer directories without recursing
+ -l, --links                 copy symlinks as symlinks
+ -L, --copy-links            transform symlink into referent file/dir
+     --copy-unsafe-links     only "unsafe" symlinks are transformed
+     --safe-links            ignore symlinks that point outside the source tree
+     --munge-links           munge symlinks to make them safer (but unusable)
+ -k, --copy-dirlinks         transform symlink to a dir into referent dir
+ -K, --keep-dirlinks         treat symlinked dir on receiver as dir
+ -H, --hard-links            preserve hard links
+ -p, --perms                 preserve permissions
+ -E, --executability         preserve the file's executability
+     --chmod=CHMOD           affect file and/or directory permissions
+ -A, --acls                  preserve ACLs (implies --perms)
+ -X, --xattrs                preserve extended attributes
+ -o, --owner                 preserve owner (super-user only)
+ -g, --group                 preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1640) [Receiver=3.1.1]
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ gedit report.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ P[Kgedit report.txt[8Prsync -avh/1702/testCHN18CS109 SAURAV K.J.  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 SARATH KUMAR  S [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C4 Rojin K Sunny[1P [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 RINU ELISABATH MATHEW [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C1 REMYA RAVEEDR[2PANATHAN[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[4P0 Remya C 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C097 Prayank P Naiir [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 PARVATHY SANT[3@HOSH[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 PARVATHY KRIS[CNAN[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 Nivya Maria M[1@athew[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 NIVEA GIGEN
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 NIMMY GEORGE  [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[5P84 NAJEEB 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 MUNISH KUMAR  [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 Muhammad Jalal [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C0 MARGRET JAISON[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C79 Manu Mathew  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P6 KIRAN U
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 KAVYA M[C1 JUSTIN JOSEPHH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C69 JOSHENA JOSEPH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C8 Jonathan John[8@ Varghese[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C4 JISA SURENDRAN [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 Jibin Joseph [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C1 Jesswin W Varghese [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C0 Jessal John Mammen[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C57 JEENU CHACKO [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 JALENA MATHEW [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 lrene Maria Zachariah [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 HELEENA ANNA VARGHESE[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P2 HARI S R 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 HABEL JAMES GGEORGE [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C49 GOVIND KARTHA [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[1P8 GOPUDAS KM 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 GOPIKA SURESHH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 GOPIKA PRADEEP [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 GEORGE MANI  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C39 Emmanuel Shinne Joseph [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P7 DEVIKA J 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 DEEPA MARIAM  GEORGE [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[4P29 Ashna A 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 ASHIK DAVID AABRAHAM [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 ARJUN G KRISH[4PNA[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[4P4 ARJUN A 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@3 ARAVIND R[C[1P18 ANJANA S[C5 Amal Ramachanndran [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 ALKA ANNA SAB[3PU[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C08 AKHIL RAVINDR[1@AN[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C7 Aju George Ja[1@cob[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 ADWAITH SIVAN [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 ADHIL SHAHANAD K K [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 ABIN BINU SAM [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P2 ABHIITHP 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgedit cgpa.txt[Cls[K./script.sh gedit students.txt[6P./script.sh chmod +x script.shd s1c[Khmod +x script.sh[6P./script.sh gedit students.txt[6P./script.sh ls[Kgedit cgpa.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSFTP[K[K[K[Ksftp  cs18c13@1923.158[K[K[K[K[K.168.0 .30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c13@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                3101                aa                  
+cs232               examples.desktop    report.txt          test                
+work.txt            
+sftp> mkdir 1702[K[K[K[K[K[K[K[K[Kcd 1702
+Can't change directory: "/home/cs18c13/1702" is not a directory
+sftp> ls
+^CInterrupt  
+^[[A    bye
+
+sftp> bye
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ sftp  cs18c13@192.168.0..30[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [7Pgedit report.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[       preserve group
+     --devices               preserve device files (super-user only)
+     --specials              preserve special files
+ -D                          same as --devices --specials
+ -t, --times                 preserve modification times
+ -O, --omit-dir-times        omit directories from --times
+ -J, --omit-link-times       omit symlinks from --times
+     --super                 receiver attempts super-user activities
+     --fake-super            store/recover privileged attrs using xattrs
+ -S, --sparse                handle sparse files efficiently
+     --preallocate           allocate dest files before writing them
+ -n, --dry-run               perform a trial run with no changes made
+ -W, --whole-file            copy files whole (without delta-xfer algorithm)
+ -x, --one-file-system       don't cross filesystem boundaries
+ -B, --block-size=SIZE       force a fixed checksum block-size
+ -e, --rsh=COMMAND           specify the remote shell to use
+     --rsync-path=PROGRAM    specify the rsync to run on the remote machine
+     --existing              skip creating new files on receiver
+     --ignore-existing       skip updating files that already exist on receiver
+     --remove-source-files   sender removes synchronized files (non-dirs)
+     --del                   an alias for --delete-during
+     --delete                delete extraneous files from destination dirs
+     --delete-before         receiver deletes before transfer, not during
+     --delete-during         receiver deletes during the transfer
+     --delete-delay          find deletions during, delete after
+     --delete-after          receiver deletes after transfer, not during
+     --delete-excluded       also delete excluded files from destination dirs
+     --ignore-missing-args   ignore missing source args without error
+     --delete-missing-args   delete missing source args from destination
+     --ignore-errors         delete even if there are I/O errors
+     --force                 force deletion of directories even if not empty
+     --max-delete=NUM        don't delete more than NUM files
+     --max-size=SIZE         don't transfer any file larger than SIZE
+     --min-size=SIZE         don't transfer any file smaller than SIZE
+     --partial               keep partially transferred files
+     --partial-dir=DIR       put a partially transferred file into DIR
+     --delay-updates         put all updated files into place at transfer's end
+ -m, --prune-empty-dirs      prune empty directory chains from the file-list
+     --numeric-ids           don't map uid/gid values by user/group name
+     --usermap=STRING        custom username mapping
+     --groupmap=STRING       custom groupname mapping
+     --chown=USER:GROUP      simple username/groupname mapping
+     --timeout=SECONDS       set I/O timeout in seconds
+     --contimeout=SECONDS    set daemon connection timeout in seconds
+ -I, --ignore-times          don't skip files that match in size and mod-time
+ -M, --remote-option=OPTION  send OPTION to the remote side only
+     --size-only             skip files that match in size
+     --modify-window=NUM     compare mod-times with reduced accuracy
+ -T, --temp-dir=DIR          create temporary files in directory DIR
+ -y, --fuzzy                 find similar file for basis if no dest file
+     --compare-dest=DIR      also compare destination files relative to DIR
+     --copy-dest=DIR         ... and include copies of unchanged files
+     --link-dest=DIR         hardlink to files in DIR when unchanged
+ -z, --compress              compress file data during the transfer
+     --compress-level=NUM    explicitly set compression level
+     --skip-compress=LIST    skip compressing files with a suffix in LIST
+ -C, --cvs-exclude           auto-ignore files the same way CVS does
+ -f, --filter=RULE           add a file-filtering RULE
+ -F                          same as --filter='dir-merge /.rsync-filter'
+                             repeated: --filter='- .rsync-filter'
+     --exclude=PATTERN       exclude files matching PATTERN
+     --exclude-from=FILE     read exclude patterns from FILE
+     --include=PATTERN       don't exclude files matching PATTERN
+     --include-from=FILE     read include patterns from FILE
+     --files-from=FILE       read list of source-file names from FILE
+ -0, --from0                 all *-from/filter files are delimited by 0s
+ -s, --protect-args          no space-splitting; only wildcard special-chars
+     --address=ADDRESS       bind address for outgoing socket to daemon
+     --port=PORT             specify double-colon alternate port number
+     --sockopts=OPTIONS      specify custom TCP options
+     --blocking-io           use blocking I/O for the remote shell
+     --stats                 give some file-transfer stats
+ -8, --8-bit-output          leave high-bit chars unescaped in output
+ -h, --human-readable        output numbers in a human-readable format
+     --progress              show progress during transfer
+ -P                          same as --partial --progress
+ -i, --itemize-changes       output a change-summary for all updates
+     --out-format=FORMAT     output updates using the specified FORMAT
+     --log-file=FILE         log what we're doing to the specified FILE
+     --log-file-format=FMT   log updates using the specified FMT
+     --password-file=FILE    read daemon-access password from FILE
+     --list-only             list the files instead of copying them
+     --bwlimit=RATE          limit socket I/O bandwidth
+     --outbuf=N|L|B          set output buffering to None, Line, or Block
+     --write-batch=FILE      write a batched update to FILE
+     --only-write-batch=FILE like --write-batch but w/o updating destination
+     --read-batch=FILE       read a batched update from FILE
+     --protocol=NUM          force an older protocol version to be used
+     --iconv=CONVERT_SPEC    request charset conversion of filenames
+     --checksum-seed=NUM     set block/file checksum seed (advanced)
+     --noatime               do not alter atime when opening source files
+ -4, --ipv4                  prefer IPv4
+ -6, --ipv6                  prefer IPv6
+     --version               print version number
+(-h) --help                  show this help (-h is --help only if used alone)
+
+Use "rsync --daemon --help" to see the daemon-mode command-line options.
+Please see the rsync(1) and rsyncd.conf(5) man pages for full documentation.
+See http://rsync.samba.org/ for updates, bug reports, and answers
+rsync error: syntax or usage error (code 1) at main.c(1640) [Receiver=3.1.1]
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ gedit report.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ P[Kgedit report.txt[8Prsync -avh/1702/testCHN18CS109 SAURAV K.J.  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 SARATH KUMAR  S [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C4 Rojin K Sunny[1P [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 RINU ELISABATH MATHEW [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C1 REMYA RAVEEDR[2PANATHAN[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[4P0 Remya C 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C097 Prayank P Naiir [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 PARVATHY SANT[3@HOSH[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 PARVATHY KRIS[CNAN[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 Nivya Maria M[1@athew[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 NIVEA GIGEN
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 NIMMY GEORGE  [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[5P84 NAJEEB 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 MUNISH KUMAR  [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 Muhammad Jalal [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C0 MARGRET JAISON[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C79 Manu Mathew  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P6 KIRAN U
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 KAVYA M[C1 JUSTIN JOSEPHH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C69 JOSHENA JOSEPH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C8 Jonathan John[8@ Varghese[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C4 JISA SURENDRAN [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 Jibin Joseph [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C1 Jesswin W Varghese [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C0 Jessal John Mammen[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C57 JEENU CHACKO [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 JALENA MATHEW [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 lrene Maria Zachariah [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 HELEENA ANNA VARGHESE[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P2 HARI S R 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 HABEL JAMES GGEORGE [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C49 GOVIND KARTHA [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[1P8 GOPUDAS KM 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C7 GOPIKA SURESHH [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 GOPIKA PRADEEP [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 GEORGE MANI  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C39 Emmanuel Shinne Joseph [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P7 DEVIKA J 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5 DEEPA MARIAM  GEORGE [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[4P29 Ashna A 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 ASHIK DAVID AABRAHAM [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 ARJUN G KRISH[4PNA[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[4P4 ARJUN A 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@3 ARAVIND R[C[1P18 ANJANA S[C5 Amal Ramachanndran [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C2 ALKA ANNA SAB[3PU[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C08 AKHIL RAVINDR[1@AN[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C7 Aju George Ja[1@cob[C[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C6 ADWAITH SIVAN [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C5 ADHIL SHAHANAD K K [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C3 ABIN BINU SAM [K[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C[3P2 ABHIITHP 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pgedit cgpa.txt[Cls[K./script.sh gedit students.txt[6P./script.sh chmod +x script.shd s1c[Khmod +x script.sh[6P./script.sh gedit students.txt[6P./script.sh ls[Kgedit cgpa.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSFTP[K[K[K[Ksftp  cs18c13@1923.158[K[K[K[K[K.168.0 .30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c13@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                3101                aa                  
+cs232               examples.desktop    report.txt          test                
+work.txt            
+sftp> mkdir 1702[K[K[K[K[K[K[K[K[Kcd 1702
+Can't change directory: "/home/cs18c13/1702" is not a directory
+sftp> ls
+^CInterrupt  
+^[[A    bye
+
+sftp> bye
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ sftp  cs18c13@192.168.0..30[A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [7Pgedit report.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync -avh/1702/testCHN18CS109 SAURAV K.J.  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C8 SARATH KUMAR  S [A]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/1702/s1c[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/1702/s1c[00m$ [C[C[C[C[C[C[C[C[C9 SAURAV K.J.  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Prsync -avh/1702/test
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[
