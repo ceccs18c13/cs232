@@ -1,0 +1,58 @@
+Script started on Friday 28 February 2020 11:22:00 PM IST
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ script work.txt[8Pcd 2802[3@mkdir[C[C[C[C[C[3Pcd[C[C[C[C[Cscript work.txt[K./script.sh 
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ ls
+cgpa.txt  result_CHN.pdf  result_CHN.txt  [0m[01;32mscript.sh[0m  students.txt  work.txt
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ gedit cgpa.txt 
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ gedit cgpa.txt [K[K[K[K[K[K[K[K[Krepoe[Krt.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Friday 28 February 2020 11:34:24 PM IST
+Script started on Friday 28 February 2020 09:51:40 PM IST
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ gedit index.html
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ gedit index.html
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ gedit index.html
+^C
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ if [Kconfig -a
+enp0s25   Link encap:Ethernet  HWaddr 10:78:d2:e0:ae:5a  
+          inet addr:192.168.0.88  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::3b5f:806d:8f82:76b8/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:186204 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11526 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:27939664 (27.9 MB)  TX bytes:1757689 (1.7 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:6408 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6408 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:435312 (435.3 KB)  TX bytes:435312 (435.3 KB)
+
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ ./script.sh
+bash: ./script.sh: No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ chmod +x scrip[t[K[Kt.sh
+chmod: cannot access 'script.sh': No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802[00m$ cd s2
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ ./script.sh
+bash: ./script.sh: Permission denied
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ ./script.sh[6Pcd s2hmod +x script.sh
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ chmod +x script.sh[7P./script.sh
+sed: can't read result.txpdftotext: No such file or directory
+rm: cannot remove 'cgpa_raw.txtt': No such file or directory
+sed: can't read result.txt: No such file or directory
+sed: can't read result.txt: No such file or directory
+sed: can't read result.txt: No such file or directory
+awk: cannot open result.txt (No such file or directory)
+rm: cannot remove 'result.txt': No such file or directory
+rm: cannot remove 'result_cs.txt': No such file or directory
+rm: cannot remove 'result_na.txt': No such file or directory
+rm: cannot remove 'result_nn.txt': No such file or directory
+]0;s4c1@ceclab2-Veriton-Series: ~/ceccs18c13/cs232/2802/s2[01;32ms4c1@ceclab2-Veriton-Series[00m:[01;34m~/ceccs18c13/cs232/2802/s2[00m$ exit
+exit
+
+Script done on Friday 28 February 2020 11:21:37 PM IST
