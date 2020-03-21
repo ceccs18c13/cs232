@@ -1,0 +1,46 @@
+CEC CS 18 C13
+ASHNA A
+--------------------------------
+#1:t8(2) Perl
+---------------------------------
+Program Name:
+----------------------------
+1.Addition of two numbers
+
+2.To check whether a number is odd or even
+
+
+3.To find a number is prime or not
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1.Enter the numbers
+  2
+  3
+  Sum = 5
+
+2.Enter a number:7
+  Given number is odd 
+
+3.Enter a number:5
+  5 is a prime number
+
+  Enter a number:4
+  4 is not a prime number
+
+
+-------------------------------------
+
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+------------------------------------
+

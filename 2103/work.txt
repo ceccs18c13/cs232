@@ -1,0 +1,39 @@
+Script started on 2020-03-21 11:25:07+0530
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ gedit addnum.pl
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl addnum.pl
+Enter the numbers
+2
+3
+Sum = 5
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl addnum.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexitcd 2103[3@mkdir[C[C[C[C[C[2Pcd cs232eccs18c09exit[Ksftp cs18c09@14.139.189.217cd 2003[K[K[K[K[K[K[K[Kgedit oddeven.pl
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl oddeven.pl
+Global symbol "$n" requires explicit package name (did you forget to declare "my $n"?) at oddeven.pl line 4.
+Global symbol "$n" requires explicit package name (did you forget to declare "my $n"?) at oddeven.pl line 5.
+Execution of oddeven.pl aborted due to compilation errors.
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl oddeven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ gedit oddeven.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C
+Global symbol "$nr" requires explicit package name (did you forget to declare "my $nr"?) at oddeven.pl line 4.
+Global symbol "$nr" requires explicit package name (did you forget to declare "my $nr"?) at oddeven.pl line 5.
+Execution of oddeven.pl aborted due to compilation errors.
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl oddeven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C
+^C
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ gedit oddeven.pl
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ gedit oddeven.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C
+Enter a number:7
+Given number is odd 
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl oddeven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kperl oddeven.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plp.plr.pli.plm.ple.pl
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ gedit prime.plperl oddeven.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plp.plr.pli.plm.plr.pl[1P.ple.pl[C[C[C
+Enter a number:5
+ 5 is a prime number
+
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ perl prime.pl
+Enter a number:4
+ 4 is not a prime number
+
+]0;ashna@ashna-Aspire-E1-531: ~/ceccs18c13/cs232/2103[01;32mashna@ashna-Aspire-E1-531[00m:[01;34m~/ceccs18c13/cs232/2103[00m$ exio[Kt
+exit
+
+Script done on 2020-03-21 11:53:09+0530
