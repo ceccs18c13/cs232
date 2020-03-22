@@ -1,0 +1,67 @@
+Script started on 2020-03-22 21:15:03+0530
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ exitscript work.txt[8Pcd 2203cs232eccs18c13exit[K[K[K[K[Kgedit hello.pl
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit hello.plexit[Kscript work.txt[8Pcd 2203script work.txtexit[Kgedit hello.pl[1P hello.pl[1P hello.pl[1P hello.pl[1P hello.pl[1P hello.plp hello.ple hello.plr hello.pll hello.pl[C[C[C[C[C[C[C[C[C
+Hello world
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit large.pl
+^C
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit large.pl[C[1P large.pl[1P large.pl[1P large.pl[1P large.pl[1P large.plp large.pl[1P large.pl[C[C[C[C[C[C[C[C[C\\\[K[K[K[K[K[K[K[K[K[K[K[Kperl hello.pl[1@gedit[C[C[C[C[C[C[C[C[Cexit[Kgedit hello.pl[1Pperl[C[C[C[C[C[C[C[C[C[Kgedit large.pl
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit large.pl
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit large.pl[1P large.pl[1P large.pl[1P large.pl[1P large.pl[1P large.plp large.ple large.plr large.pll large.pl[C[C[C[C[C[C[C[C[C
+enter the  value of a:5
+enter the value of b:3
+enter the  value of c:9
+9 is largest number]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ ^C
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit given.pl
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit given.pl
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ gedit given.pl[1Pperl large.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plg.pli.plv.ple.pln.pl[C[C[C
+given is experimental at given.pl line 14.
+when is experimental at given.pl line 15.
+when is experimental at given.pl line 16.
+when is experimental at given.pl line 17.
+when is experimental at given.pl line 18.
+Enter two numbers
+42
+3
+Enter 1 for addition 2 for subtraction 3 for multiplication and 4 for division.
+4
+Quotient = 14
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ exi[K[K[Kperl given.pl[1@gedit[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C
+given is experimental at given.pl line 14.
+when is experimental at given.pl line 15.
+when is experimental at given.pl line 16.
+when is experimental at given.pl line 17.
+when is experimental at given.pl line 18.
+Enter two numbers
+3
+2
+Enter 1 for addition 2 for subtraction 3 for multiplication and 4 for division.
+3
+Product = 6
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ perl given.pl
+given is experimental at given.pl line 14.
+when is experimental at given.pl line 15.
+when is experimental at given.pl line 16.
+when is experimental at given.pl line 17.
+when is experimental at given.pl line 18.
+Enter two numbers
+4
+2
+Enter 1 for addition 2 for subtraction 3 for multiplication and 4 for division.
+2
+Difference = 2
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ perl given.pl
+given is experimental at given.pl line 14.
+when is experimental at given.pl line 15.
+when is experimental at given.pl line 16.
+when is experimental at given.pl line 17.
+when is experimental at given.pl line 18.
+Enter two numbers
+5
+8
+Enter 1 for addition 2 for subtraction 3 for multiplication and 4 for division.
+1
+sum =13
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/2203[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/2203[00m$ exit
+exit
+
+Script done on 2020-03-22 21:19:52+0530

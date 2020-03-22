@@ -1,0 +1,73 @@
+CEC CS 18 C13 
+ 
+ASHNA A
+
+--------------------------------
+#1: Perl t8(2)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	#Perl Program to print "Hello world"
+	hello.pl #program name
+
+	gedit hello.pl #creating program file
+
+	perl hello.pl #compilation and execution
+
+
+
+	# Perl Program to find the greatest among three numbers
+	large.pl #program name
+
+	gedit large.pl #creating program file
+
+	perl large.pl #compilation and execution
+
+
+ 
+
+	# Perl program to carry out arithmetic operations using given instead of swith-case
+	given.pl #program name
+
+	gedit given.pl #creating program file
+
+	perl given.pl #compilation and execution
+
+
+--------------------------------
+Output: 
+	
+	# Output of hello.pl
+	Hello world
+
+
+	# Output of large.pl
+	 enter the  value of a:5
+         enter the value of b:3
+         enter the  value of c:9
+         9 is largest number
+	
+	
+
+	# Output of given.pl	
+	Enter two numbers
+        42
+        3
+        Enter 1 for addition 2 for subtraction 3 for multiplication and 4 for division.
+        4
+        Quotient = 14
+
+	
+-------------------
+Remarks if any:
+
+
+        * given is used instaed of switch-case in program named given.pl which is a feature of perl
+
+-------------------
+
+given is used instead of switchcase which is a feature of perl
+
+--------------------------------
