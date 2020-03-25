@@ -1,0 +1,69 @@
+CEC CS 18 C13
+ASHNA A
+25/03/2020
+
+MAC ADDRESS: b8:88:e3:d6:65:c5
+
+ 
+--------------------------------
+#1: Aim/task
+---------------------------------
+Command/Shell script/Program name
+
+t8(1):Package management 
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+*The various steps are shown below:
+	
+	#To update local package 
+         sudo apt-get update
+	
+
+        # To install nmap 
+         sudo apt-get install nmap
+
+        # To remove nmap 
+          sudo apt remove nmap
+ 
+        #To install links2 
+         sudo apt-get install links2
+
+        # To remove links2 
+          sudo apt remove links2
+	
+	# To install apache2 -
+          sudo apt-get install apache2
+	
+	#To access the same prompts on installation 
+         sudo dpkg-reconfigure apache2
+
+        # To get information about packages installed with apache2 
+           apt-get install -s apache2
+
+        #To remove all dependencies no longer required 
+           sudo apt-get autoremove
+
+        #To list all installed packages 
+          sudo apt list > package.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+ #List of installed packages are in 
+  package.txt
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
