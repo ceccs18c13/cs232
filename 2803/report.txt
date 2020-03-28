@@ -1,0 +1,45 @@
+CEC CS 18 C13
+ASHNA A
+28-03-2020
+MAC ADDRESS:  b8:88:e3:d6:65:c5
+
+--------------------------------
+#1: Aim/task
+
+ t7:  Setting up ftp and http server
+
+---------------------------------
+Command/Shell script/Program name
+
+     #To install ftp server:
+      sudo apt-get install vsftpd
+
+     #To edit ftp server configuration:
+      sudo gedit /etc/vsftpd.conf
+  
+     #To connect ftp on local server:
+      ftp localhost
+
+     #To install apache2:
+      sudo apt-get install apache2
+
+     #To edit appache2:
+      sudo gedit /var/www/html/index.html
+
+
+---------------------------------
+Output
+
+    #ftp server is available at :
+     192.168.1.7
+
+    #Apache server :
+     screenshot attached (screenshot.png)
+
+
+--------------------------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
