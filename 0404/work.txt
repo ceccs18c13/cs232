@@ -1,0 +1,115 @@
+Script started on 2020-04-04 16:18:41+0530
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ bash calculator.sh[11Pcd 0404cs232eccs18c13bash calculator.sh[11Pcd 0404cs232 ceccs18c13script work.txt[8Pcd 0404cs232eccs18c13exit[Kgedit calculator.sh[1Pbash[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ ./calculator.sh
+bash: ./calculator.sh: Permission denied
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ ./calculator.sh
+[3J[H[2J1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+1
+......ADD.....
+Enter first no:
+3
+Enter second no:
+2
+Answer: 5
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+2
+./calculator.sh: line 27: echo.....SUB......: command not found
+Enter first no:
+3
+Enter second no:
+2
+Answer: 1
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+3
+./calculator.sh: line 37: echo.....MUL......: command not found
+Enter first no:
+3
+Enter second no:
+2
+Answer: 6
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+4
+./calculator.sh: line 48: echo.....DIV......: command not found
+Enter first no:
+8
+Enter second no:
+4
+Answer: 2
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+5
+./calculator.sh: line 58: echo.....MOD......: command not found
+Enter first no:
+9
+Enter second no:
+3
+Answer: 0
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+6
+./calculator.sh: line 67: stopping srcipt: command not found
+./calculator.sh: line 68: sleep1: command not found
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ ./calculator.shgedit calculator.sh
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ gedit calculator.sh[4P./calculator.shgedit calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbash calculator.sh[11Pcd 0404cs232eccs18c13bash calculator.sh[11Pcd 0404cs232 ceccs18c13script work.txt[8Pcd 0404cs232eccs18c13exit[Kgedit calculator.sh[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./calculator.sh
+[3J[H[2J1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+1
+......ADD.....
+Enter first no:
+3
+Enter second no:
+2
+Answer: 5
+1.ADD
+2.SUB
+3.MUL
+4.DIV
+5.MOD
+press any key to exit
+what do you want?
+y 7
+./calculator.sh: line 67: stopping srcipt: command not found
+./calculator.sh: line 68: sleep1: command not found
+]0;ashna@ashna-aspire-e1-531: ~/ceccs18c13/cs232/0404[01;32mashna@ashna-aspire-e1-531[00m:[01;34m~/ceccs18c13/cs232/0404[00m$ exit
+exit
+
+Script done on 2020-04-04 16:52:17+0530

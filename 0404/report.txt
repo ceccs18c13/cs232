@@ -1,0 +1,60 @@
+CEC CS 18 C13
+ASHNA A
+
+04-04-2020
+MAC ADDRESS:  b8:88:e3:d6:65:c5
+
+--------------------------------
+#1: Aim/task
+
+ #S6
+Shell script to implement a menu driven calculator with following functions 
+
+1.  Addition 
+2.  Subtraction 
+3.  Multiplication 
+4.  Division 
+5.  Modulus
+
+---------------------------------
+Command/Shell script/Program name
+
+#Shell script:
+  calulator.sh
+
+
+#Run script
+  ./calulator.sh
+
+
+---------------------------------
+
+Input & Output (whichever is applicable)
+
+
+  1.ADD
+  2.SUB
+  3.MUL
+  4.DIV
+  5.MOD
+  press any key to exit
+  what do you want?
+  1 
+  ......ADD.....
+  Enter first no:
+  23
+  Enter second no:
+  20
+  Answer: 43
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
