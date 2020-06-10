@@ -1,0 +1,95 @@
+CEC CS 18 C 13
+ASHNA A
+
+10-06-2020
+MAC ADDRESS:  b8:88:e3:d6:65:c5
+
+--------------------------------
+#1: Aim/task
+
+  (t8) Further tasks
+     4.Kernel compilation
+
+---------------------------------
+Command/Shell script/Program name
+
+
+    #To download the latest stable kernel: 
+
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz  
+
+
+	
+    #To extract the source code:
+
+    unxz -v linux-5.5.9.tar.xz 
+
+
+	
+    #To download the PGP Signature for kernel:
+
+    wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign 
+
+
+	
+    #To verify the kernel tartball with GnuPG:
+
+    gpg --verify linux-5.5.9.tar.sign 
+
+ 
+	
+    #To extract the tartball:
+
+    tar xvf linux-5.5.9.tar
+	
+    cd linux-5.5.9
+
+
+T
+     #To create the configuration file:
+	
+     cp -v /boot/config-$(uname -r) .config  
+
+
+
+     #To  install Development tools required to compile the kernel:
+
+     sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev 
+
+
+	
+     #To compile the Kernel:
+
+     make -j $(nproc)  
+
+
+
+
+
+
+
+
+--------------------------------
+Output: 
+
+
+# The kernel is compiled Partially to linux 5.5.9 because space run out.
+
+# Photo of the compiled  kernel files is attached as kernel.jpg
+
+# The PGP signature of linux 5.5.9 is attached as linux-5.5.9.tar.sign
+
+
+
+
+
+
+-------------------
+Remarks if any:
+
+The output folder(/linux -5.5.9) was very large,so it was not uploaded
+
+
+
+-------------------------------------
+-------------------------------------
